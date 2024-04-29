@@ -25,7 +25,7 @@ const FormComponent = () => {
 
   const handleSubmit = (e) => {
     console.log(formData);
-    alert(JSON.stringify(formData));
+    //alert(JSON.stringify(formData));
 
     e.preventDefault();
     if (formIsValid()) {
